@@ -2,7 +2,7 @@ body {
   font-family: Jost;
 }
 .display-1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 4.6rem;
   line-height: 1.1;
 }
@@ -10,7 +10,7 @@ body {
   font-size: 5.75rem;
 }
 .display-2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Playfair Display', serif;
   font-size: 3rem;
   line-height: 1.1;
 }
@@ -18,7 +18,7 @@ body {
   font-size: 3.75rem;
 }
 .display-4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
 }
@@ -26,7 +26,7 @@ body {
   font-size: 1.25rem;
 }
 .display-5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 2rem;
   line-height: 1.5;
 }
@@ -34,7 +34,7 @@ body {
   font-size: 2.5rem;
 }
 .display-7 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 1.1rem;
   line-height: 1.5;
 }
@@ -586,7 +586,7 @@ a:hover {
   display: none;
 }
 .form-control {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
@@ -600,7 +600,7 @@ a:hover {
   border-color: #6592e6 !important;
 }
 .form-control:-webkit-input-placeholder {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 1rem;
   line-height: 1.5;
   font-weight: 400;
@@ -682,11 +682,20 @@ body {
 a {
   transition: color 0.6s;
 }
+.cid-sV6rWBpL1L {
+  background-image: url("../../../assets/images/background1.jpg");
+}
+.cid-sV6rWBpL1L H3 {
+  color: #021a45;
+  text-align: left;
+}
+.cid-sV6rWBpL1L .mbr-text,
+.cid-sV6rWBpL1L .mbr-section-btn {
+  color: #bbbbbb;
+}
 .cid-tDeDcH8EgD {
   z-index: 1000;
   width: 100%;
-  position: relative;
-  min-height: 60px;
 }
 .cid-tDeDcH8EgD nav.navbar {
   position: fixed;
@@ -786,8 +795,7 @@ a {
   min-height: 70px;
   transition: all 0.3s;
   border-bottom: 1px solid transparent;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  background: #ffffff;
+  background: rgba(255, 255, 255, 0);
 }
 .cid-tDeDcH8EgD .navbar.opened {
   transition: all 0.3s;
@@ -813,7 +821,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-tDeDcH8EgD .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 7rem);
+    max-height: calc(98.5vh - 3rem);
   }
 }
 .cid-tDeDcH8EgD .navbar.collapsed .dropdown-menu .dropdown-submenu {
@@ -1034,25 +1042,44 @@ a {
     left: -1rem;
   }
 }
-.cid-sV6rWBpL1L {
-  background-image: url("../../../assets/images/bridge-skyline-water.jpeg");
-}
-.cid-sV6rWBpL1L H3 {
-  color: #000000;
-}
-.cid-sV6rWBpL1L .mbr-text,
-.cid-sV6rWBpL1L .mbr-section-btn {
-  color: #000000;
-}
-.cid-tDeHrW8zvg {
+.cid-uqHjCCKZ2Y {
   padding-top: 5rem;
-  padding-bottom: 0rem;
-  background-color: #ffffff;
+  padding-bottom: 5rem;
+  background-image: url("../../../assets/images/mbr-5.jpg");
 }
-.cid-tDeHrW8zvg blockquote {
-  border-color: #021a45;
+.cid-uqHjCCKZ2Y .mbr-fallback-image.disabled {
+  display: none;
+}
+.cid-uqHjCCKZ2Y .mbr-fallback-image {
+  display: block;
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+}
+.cid-uqHjCCKZ2Y .card-wrapper {
+  background: #ffffff;
   border-radius: 4px;
-  background-color: #ffffff;
+}
+@media (max-width: 767px) {
+  .cid-uqHjCCKZ2Y .card-wrapper {
+    padding: 1rem;
+  }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .cid-uqHjCCKZ2Y .card-wrapper {
+    padding: 2rem;
+  }
+}
+@media (min-width: 992px) {
+  .cid-uqHjCCKZ2Y .card-wrapper {
+    padding: 4rem;
+  }
+}
+.cid-uqHjCCKZ2Y .card-title {
+  color: #021a45;
 }
 .cid-up95U8rD9N {
   padding-top: 6rem;
@@ -1077,7 +1104,7 @@ a {
 .cid-up95U8rD9N .item-wrapper {
   position: relative;
   border-radius: 4px;
-  background: #fafafa;
+  background: #ffffff;
   height: 100%;
   display: flex;
   flex-flow: column nowrap;
@@ -1096,7 +1123,7 @@ a {
   margin-top: auto !important;
 }
 .cid-up95U8rD9N .mbr-section-title {
-  color: #232323;
+  color: #021a45;
 }
 .cid-up95U8rD9N .mbr-text,
 .cid-up95U8rD9N .mbr-section-btn {
@@ -1127,7 +1154,7 @@ a {
 .cid-up8M9PXm0x .slide-content {
   position: relative;
   border-radius: 4px;
-  background: #fafafa;
+  background: #ffffff;
   height: 100%;
   display: flex;
   overflow: hidden;
@@ -1147,14 +1174,14 @@ a {
   margin-top: auto !important;
 }
 .cid-up8M9PXm0x .mbr-section-title {
-  color: #232323;
+  color: #021a45;
 }
 .cid-up8M9PXm0x .mbr-text,
 .cid-up8M9PXm0x .mbr-section-btn {
-  text-align: left;
+  text-align: center;
 }
 .cid-up8M9PXm0x .item-title {
-  text-align: left;
+  text-align: center;
 }
 .cid-up8M9PXm0x .item-subtitle {
   text-align: left;
@@ -1293,7 +1320,7 @@ a {
 }
 .cid-tSoy6RyrT6 .card-wrapper {
   padding: 3rem;
-  background: #fafafa;
+  background: #ffffff;
   border-radius: 4px;
 }
 @media (max-width: 992px) {
@@ -1308,6 +1335,12 @@ a {
 }
 .cid-tSoy6RyrT6 .link {
   color: #232323;
+}
+.cid-tSoy6RyrT6 .mbr-section-title {
+  color: #021a45;
+}
+.cid-tSoy6RyrT6 .card-title {
+  color: #021a45;
 }
 .cid-sV3MpZCynm {
   padding-top: 2rem;
@@ -1508,7 +1541,7 @@ a {
 }
 @media (min-width: 992px) {
   .cid-tHVmoFGZc6 .navbar.collapsed.opened:not(.navbar-short) .navbar-collapse {
-    max-height: calc(98.5vh - 7rem);
+    max-height: calc(98.5vh - 3rem);
   }
 }
 .cid-tHVmoFGZc6 .navbar.collapsed .dropdown-menu .dropdown-submenu {
