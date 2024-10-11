@@ -682,17 +682,6 @@ body {
 a {
   transition: color 0.6s;
 }
-.cid-sV6rWBpL1L {
-  background-image: url("../../../assets/images/background1.jpg");
-}
-.cid-sV6rWBpL1L H3 {
-  color: #021a45;
-  text-align: left;
-}
-.cid-sV6rWBpL1L .mbr-text,
-.cid-sV6rWBpL1L .mbr-section-btn {
-  color: #bbbbbb;
-}
 .cid-tDeDcH8EgD {
   z-index: 1000;
   width: 100%;
@@ -1042,6 +1031,17 @@ a {
     left: -1rem;
   }
 }
+.cid-sV6rWBpL1L {
+  background-image: url("../../../assets/images/background1.jpg");
+}
+.cid-sV6rWBpL1L H3 {
+  color: #021a45;
+  text-align: left;
+}
+.cid-sV6rWBpL1L .mbr-text,
+.cid-sV6rWBpL1L .mbr-section-btn {
+  color: #bbbbbb;
+}
 .cid-uqHjCCKZ2Y {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1081,27 +1081,23 @@ a {
 .cid-uqHjCCKZ2Y .card-title {
   color: #021a45;
 }
-.cid-up95U8rD9N {
+.cid-uqWcGAfSJl {
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-color: #ffffff;
 }
-.cid-up95U8rD9N img,
-.cid-up95U8rD9N .item-img {
+.cid-uqWcGAfSJl img,
+.cid-uqWcGAfSJl .item-img {
   width: 100%;
   height: 100%;
   height: 300px;
   object-fit: cover;
 }
-.cid-up95U8rD9N .item:focus,
-.cid-up95U8rD9N span:focus {
+.cid-uqWcGAfSJl .item:focus,
+.cid-uqWcGAfSJl span:focus {
   outline: none;
 }
-.cid-up95U8rD9N .item {
-  cursor: pointer;
-  margin-bottom: 2rem;
-}
-.cid-up95U8rD9N .item-wrapper {
+.cid-uqWcGAfSJl .item-wrapper {
   position: relative;
   border-radius: 4px;
   background: #ffffff;
@@ -1110,30 +1106,31 @@ a {
   flex-flow: column nowrap;
 }
 @media (min-width: 992px) {
-  .cid-up95U8rD9N .item-wrapper .item-content {
+  .cid-uqWcGAfSJl .item-wrapper .item-content {
     padding: 2rem;
   }
 }
 @media (max-width: 991px) {
-  .cid-up95U8rD9N .item-wrapper .item-content {
+  .cid-uqWcGAfSJl .item-wrapper .item-content {
     padding: 1rem;
   }
 }
-.cid-up95U8rD9N .mbr-section-btn {
+.cid-uqWcGAfSJl .mbr-section-btn {
   margin-top: auto !important;
 }
-.cid-up95U8rD9N .mbr-section-title {
+.cid-uqWcGAfSJl .mbr-section-title {
   color: #021a45;
 }
-.cid-up95U8rD9N .mbr-text,
-.cid-up95U8rD9N .mbr-section-btn {
+.cid-uqWcGAfSJl .mbr-text,
+.cid-uqWcGAfSJl .mbr-section-btn {
   text-align: center;
 }
-.cid-up95U8rD9N .item-title {
+.cid-uqWcGAfSJl .item-title {
   text-align: center;
 }
-.cid-up95U8rD9N .item-subtitle {
-  text-align: center;
+.cid-uqWcGAfSJl .item-subtitle {
+  text-align: left;
+  color: #bbbbbb;
 }
 .cid-up8M9PXm0x {
   padding-top: 6rem;
@@ -1766,6 +1763,10 @@ a {
   padding-top: 6rem;
   padding-bottom: 6rem;
   background-image: url("../../../assets/images/plusynergy-ofc-bldg-night.jpg");
+}
+.cid-tHVx6h4e3s .mbr-text,
+.cid-tHVx6h4e3s .mbr-section-btn {
+  color: #bbbbbb;
 }
 .cid-tHVx6Z5D1Q {
   padding-top: 5rem;
