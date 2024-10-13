@@ -1032,7 +1032,7 @@ a {
   }
 }
 .cid-sV6rWBpL1L {
-  background-image: url("../../../assets/images/background1.jpg");
+  background-image: url("../../../assets/images/sh-china-tower-9.jpeg");
 }
 .cid-sV6rWBpL1L H3 {
   color: #021a45;
@@ -1041,6 +1041,30 @@ a {
 .cid-sV6rWBpL1L .mbr-text,
 .cid-sV6rWBpL1L .mbr-section-btn {
   color: #bbbbbb;
+}
+.cid-ur56LGy5dB {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+.cid-ur56LGy5dB .line {
+  background-color: #000000;
+  color: #000000;
+  align: center;
+  height: 2px;
+  margin: 0 auto;
+}
+.cid-ur56LGy5dB .section-text {
+  padding: 2rem 0;
+  color: #021a45;
+}
+.cid-ur56LGy5dB .inner-container {
+  margin: 0 auto;
+}
+@media (max-width: 768px) {
+  .cid-ur56LGy5dB .inner-container {
+    width: 100% !important;
+  }
 }
 .cid-uqHjCCKZ2Y {
   padding-top: 5rem;
